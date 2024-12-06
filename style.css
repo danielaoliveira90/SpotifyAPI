@@ -1,0 +1,79 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #1db954; /* Spotify green */
+}
+
+/* Tracks Section */
+#tracks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#tracks div {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    transition: transform 0.2s;
+}
+
+#tracks div:hover {
+    transform: scale(1.05);
+}
+
+/* Images */
+#tracks img {
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Links */
+.link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1db954;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Group Members */
+h3 {
+    margin-top: 20px;
+    color: #444;
+}
+
+p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    text-align: center;
+}

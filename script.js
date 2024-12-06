@@ -1,5 +1,5 @@
 const clientId = "08c93bdce8704a528e1520ca3441f5bc";  // Replace with your Spotify Client ID
-const redirectUri = "http://localhost:5500"; // Replace with your redirect URI
+const redirectUri = "https://danielaoliveira90.github.io/SpotifyAPI/"; // Replace with your redirect URI
 const scopes = "user-read-recently-played";
 
 // Step 1: Redirect user to Spotify login to get an access token
